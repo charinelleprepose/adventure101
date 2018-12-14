@@ -1,0 +1,110 @@
+body {
+	background: white;
+}
+
+h1 {
+	font-family: AR CHRISTY;
+	font-size: 50px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.button {
+	text-align: center;
+	background: #35efe0;
+	color: black;
+	padding: 10px 25px;
+	
+}
+
+.button:hover {
+	background: #24c0fa;
+	color: white;
+}
+
+#menu {
+	margin: 0px;
+	padding: 0px;
+	font-family: Broadway;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.background {
+	padding: 50px;
+	background-image: url(../images/hehez.jpg);
+}
+
+.thoughts {
+	margin: 0px 100px 0px 100px;
+}
+
+.thought1 {
+	text-align: center;
+	border: 2px solid black;
+	font-family: Lucida Calligraphy;
+	font-size: 18px;
+	background: #0fa2f7;
+}
+
+.thought2 {
+	text-align: center;
+	border: 2px solid black;
+	font-family: Lucida Calligraphy;
+	font-size: 18px;
+	background: #2aadf8;
+}
+
+.thought3 {
+	text-align: center;
+	border: 2px solid black;
+	font-family: Lucida Calligraphy;
+	font-size: 18px;
+	background: #43b6f8;
+}
+
+.thought4 {
+	text-align: center;
+	border: 2px solid black;
+	font-family: Lucida Calligraphy;
+	font-size: 18px;
+	background: #63c1f7;
+}
+
+.thought5 {
+	text-align: center;
+	border: 2px solid black;
+	font-family: Lucida Calligraphy;
+	font-size: 18px;
+	background: #79c9f7;
+}
+
+.thought6 {
+	text-align: center;
+	border: 2px solid black;
+	font-family: Lucida Calligraphy;
+	font-size: 18px;
+	background: #85cdf7;
+}
+
+.thought7 {
+	text-align: center;
+	border: 2px solid black;
+	font-family: Lucida Calligraphy;
+	font-size: 18px;
+	background: #84cffa;
+}
+
+.footer {
+	background: #35efe0;
+	padding: 2px;
+	margin: 8px;
+}
+.footer p {
+	font-family: broadway;
+	text-align: center;
+}

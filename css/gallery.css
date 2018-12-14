@@ -1,0 +1,102 @@
+body {
+	background: white;
+}
+
+h1 {
+	font-family: AR CHRISTY;
+	font-size: 50px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.button {
+	text-align: center;
+	background: #35efe0;
+	color: black;
+	padding: 10px 25px;
+	
+}
+
+.button:hover {
+	background: #24c0fa;
+	color: white;
+}
+
+#menu {
+	margin: 0px;
+	padding: 0px;
+	font-family: Broadway;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pictures {
+	margin: 8px 60px 8px 60px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+#one {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+#two {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+#three {
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+
+#four {
+	grid-column: 1/2;
+	grid-row:2/3;
+}
+
+#five {
+	grid-column: 2/3; 
+	grid-row:2/3;
+}
+
+#six {
+	grid-column: 3/4;
+	grid-row:2/3;
+}
+
+#seven {
+	grid-column: 1/2;
+	grid-row:3/4;
+}
+
+#eight {
+	grid-column: 2/3; 
+	grid-row:3/4;
+}
+
+#nine {
+	grid-column: 3/4;
+	grid-row:3/4;
+}
+
+#ten {
+	grid-column: 1/2;
+	grid-row:4/5;
+}
+
+#eleven {
+	grid-column: 2/3; 
+	grid-row:4/5;
+}
+
+#twelve {
+	grid-column: 3/4;
+	grid-row:4/5;
+}
